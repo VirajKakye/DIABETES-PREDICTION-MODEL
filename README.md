@@ -5,11 +5,13 @@ The objective of these project is to diagnostically predict whether or not a pat
 
 • Conducted Exploratory Data Analysis (EDA) using Matplotlib and Seaborn, analyzing data distributions, correlations, skewness, and outliers.
 
-• Applied data preprocessing, feature scaling (MinMaxScaler & StandardScaler), and outlier detection for data optimization.
+• Applied feature engineering, data preprocessing, feature scaling (MinMaxScaler & StandardScaler), and outlier detection for data optimization.
 
-• Utilized Principal Component Analysis (PCA) for dimensionality reduction, selecting the most relevant features for better model efficiency.
+• Tried Principal Component Analysis (PCA) for dimensionality reduction, selecting the most relevant features for better model efficiency.
 
-• Implemented Logistic Regression, K-Nearest Neighbors (KNN), Random Forest, and Artificial Neural Networks (ANN) to compare performance.
+•	Also used SMOTE(Synthetic Minority Oversampling Technique) for generating synthetic samples for the minority class.
+
+• Implemented Logistic Regression, K-Nearest Neighbors (KNN), Random Forest,GradientBoostingClassifier, XGBoost, SVM and Artificial Neural Networks (ANN) to compare performance.
 
 • Evaluated models using Accuracy, Confusion Matrix, and F1-score for optimal selection.
 
